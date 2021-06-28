@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Project 80
+        </title>
+    </head>
+    <style>
+        h1, h2{
+            font-size: 40;
+        }
+
+        body{
+            text-align: center;
+        }
+
+        hr{
+            margin-top: 20;
+            margin-bottom: 20;
+        }
+    </style>
+    <body>
+        <h1>Guest List</h1>
+        <span>
+         <input type="text" placeholder="Enter Name" id="enter">
+         <button type="button" onclick="submit()">Submit</button>
+        </span>
+        <hr>
+        <span id="entered"></span>
+        <hr>
+        <h2>Guest List</h2>
+        <button type="button" onclick="show()">Show</button>
+        <br>
+        <div id="show"></div>
+        <hr>
+        <button type="button" onclick="sort()">Sorted List</button>
+        <br>
+        <div id="sort"></div>
+        <hr>
+        <span>
+            <input type="text" id="search">
+            <button type="button" onclick="search()">Search</button>
+        </span>
+        <div id="searched"></div>
+    </body>
+    <script src="main.js"></script>
+</html>
